@@ -111,6 +111,7 @@ header{border-bottom: 1px solid #ECECEC;}
 /*Герой*/
 .hero {
     text-align: center;
+    padding: 200px 0px;
 }
 
 .solutions{ color:var(--white-color);
@@ -250,7 +251,7 @@ header{border-bottom: 1px solid #ECECEC;}
 .logo{margin-bottom: 20px;
     display: inline-block; }
 
-.footer .container{padding: 60px 15px}
+.footer {padding: 60px 15px}
 
 /*Portfolio*/
 
@@ -267,7 +268,7 @@ header{border-bottom: 1px solid #ECECEC;}
 
 .button-portfolio{display: flex;
     justify-content: center;
-    margin-bottom: 34px;}
+    margin-bottom: 50px;}
 
 .button-portfolio input:hover, .button-portfolio input:focus {color:var(--white-color);
      background-color:var(--accent-color) ;
@@ -286,7 +287,6 @@ header{border-bottom: 1px solid #ECECEC;}
     letter-spacing: 0.06em;
     margin-top: 0;
     margin-bottom: 4px;
-    margin-left: 24px;
     }
 
 .whatinport{color: var(--text-color);
@@ -294,11 +294,10 @@ header{border-bottom: 1px solid #ECECEC;}
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-left: 24px;}
+    margin: 0;
+    }
 
-.border{padding-top: 34px;
+.border{padding:34px 24px 20px 24px;
     border-top: 0;
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
